@@ -1,0 +1,134 @@
+header {
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    list-style: none;
+    -webkit-padding-start: 0;
+}
+a:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+#menu-menu-navigation-header {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#menu-menu-navigation-header > li.menu-item {
+    padding: 7px 15px;
+    display: inline-block;
+    border-right: 0.5px solid lightgray;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #b59f65;
+}
+
+.kiszeczka-dropdown-menu {
+    position: relative;
+}
+
+.sub-menu {
+    z-index: 100;
+    top: 150%;
+    position: absolute;
+    display: none;
+    padding: 20px 10px;
+    width: 200px;
+    background-color: #b59f65;
+    color: black;
+    box-shadow: 0px 0px 50px #545454;
+}
+.sub-menu > li {
+    padding: 5px 0;
+}
+
+.kiszeczka-logo {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+}
+
+.kiszeczka-main-slider {
+    margin-bottom: 50px;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+div[id^="wds_container"] .wds_btn_cont {
+    vertical-align: baseline;
+    top: 220px;
+    overflow: visible
+    /* height: auto; */
+}
+
+div[class^='wds_slideshow_image_wrap'] {
+    overflow: visible !important;
+}
+
+div[class^='wds_slideshow_dots_container'] {
+    bottom: -35px !important;
+}
+.fa-square-o:before {
+    content: "\E008";
+    opacity: 0.3;
+}
+
+.fa-square:before {
+    content: "\E008";
+    opacity: 1.0;
+}
+
+span[class^='wds_left-ico'],
+span[class^='wds_right-ico']
+ {
+    color: white !important;
+}
+
+.kiszeczka-inner-container {
+    color: white;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    width: 600px;
+}
+
+.kiszeczka-inner__text {
+    margin: 20px 20px 40px;
+    padding: 10px;
+    color: #b59f65;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    background: -webkit-radial-gradient(05% 95%, #b59f65, rgba(253, 246, 238, 1.0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 43px !important;
+}
+.kiszeczka-inner__subtext {
+    padding: 0 50px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 18px !important;
+}
+.kiszeczka-inner__btn {
+    display: inline-block;
+    margin: 40px auto;
+    padding: 15px;
+    background-color: #b59f65;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    width: auto;
+}
